@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-chrn
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/push-pyxis-gibd-tenant/appstudio/dc-metro-map-chrn@sha256:25f765cca04347949ddb2fd2bc7ae0a23938fc087b8527ee4c4f52f263e42024
         name: my-nodejs
         ports:
         - containerPort: 3001
