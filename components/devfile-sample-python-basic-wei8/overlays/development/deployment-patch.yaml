@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-wei8
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/push-pyxis-gibd-tenant/appstudio/devfile-sample-python-basic-wei8@sha256:7ac1447a08749fa76f50307bac692857c07c2f407d0c828747be74ad1174894c
+        name: my-python
+        resources: {}
+status: {}
